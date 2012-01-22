@@ -1,3 +1,16 @@
+/*!
+ * Bootstrap v1.4.0
+ *
+ * Copyright 2011 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Date: Thu Nov  3 17:06:17 PDT 2011
+ */
+/* Reset.less
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 html,body{margin:0;padding:0;}
 h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -354,3 +367,44 @@ button.btn::-moz-focus-inner,input[type=submit].btn::-moz-focus-inner{padding:0;
 .media-grid li{display:inline;}
 .media-grid a{float:left;padding:4px;margin:0 0 18px 20px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);}.media-grid a img{display:block;}
 .media-grid a:hover{border-color:#0069d6;-webkit-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);}
+/*!
+ * Customizations to the Bootstrap stylesheet for the Expertsum Solutions website
+ *
+ * Copyright 2012 Expertsum Solutions
+ *
+ * Designed and built by @elopez de lara.
+ * Date: 2012/01/22 16:17
+ */
+body {
+    padding-top: 60px;
+}
+.container > footer p {
+    text-align: center;
+}
+.hero-unit {
+    background: #ffffff url(../img/solarium.jpg) no-repeat right bottom; 
+    z-index:5000;
+    min-height: 199px;
+}
+.hero-unit h1 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 1;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.hero-unit blockquote {
+    margin-top: 0;
+    margin-right: -30px;
+    margin-bottom: 0;
+    width: 230px;
+    float: right;     
+    display: none; 
+}
+.hero-unit blockquote p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    color: #fff;
+}
