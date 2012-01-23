@@ -3,13 +3,22 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Webmaster: Enrique Lopez de Lara
+  Site:       
+  Twitter:   @expertsum
+  Location:  Canada
 
 /* THANKS */
-  Names (& URL): 
+  H5BP
+  Paul Irish (http://paulirish.com)
+  Divya Manian (http://nimbupani.com)   
+  Shichuan (http://www.blog.highub.com)
+  Mathias Bynens (http://mathiasbynens.be)
+  Nicolas Gallagher (http://nicolasgallagher.com)
+
+  Twitter Bootstrap
+  Mark Otto (https://twitter.com/#!/mdo)
+  Jacob Thornton (https://twitter.com/#!/fat)
 
 /* SITE */
   Standards: HTML5, CSS3
