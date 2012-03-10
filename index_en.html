@@ -12,8 +12,7 @@
         intelligence and performance management initiatives by
         applying my expertise in the industry.">
   <meta name="author" content="Enrique Lopez de Lara, elopezdelara@expertsum.com">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
@@ -24,23 +23,34 @@
 
 <body>
 
-  <div class="topbar">
-    <div class="fill">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
       <div class="container">
-        <ul class="nav">
-          <li class="active"><a href="#">Home</a></li>
-        </ul>
-        <ul class="nav secondary-nav">
-          <li class="menu">
-            <a class="menu">
-              <small>Language:</small> English
-            </a>
-            <ul class="menu-dropdown">
-              <li><a href="index_en.html" title="English">English</a></li>
-              <li><a href="index_fr.html" title="French">Français</a></li>
-            </ul>
-          </li>
-        </ul>
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#about">About</a></li>
+            <li class=""><a href="#expertise">Expertise</a></li>
+            <li class=""><a href="#contact">Contact</a></li>
+          </ul>
+<!--
+          <ul class="nav secondary-nav">
+            <li class="menu">
+              <a class="menu">
+                <small>Language:</small> English
+              </a>
+              <ul class="menu-dropdown">
+                <li><a href="index_en.html" title="English">English</a></li>
+                <li><a href="index_fr.html" title="French">Français</a></li>
+              </ul>
+            </li>
+          </ul>          
+-->
+        </div>
       </div>
     </div>
   </div>
@@ -49,6 +59,7 @@
 
     <div class="hero-unit">
       <h1>Expertsum Solutions</h1>
+<!--
       <blockquote class="recommendation">
         <p>Enrique is a dynamic and proactive individual. His
         dedication to his work and is attention to details are
@@ -86,12 +97,13 @@
         <small>Maurice Bergeron<br />General Manager, Pyxis
         Technologies</small>
       </blockquote>
+-->
     </div>
 
     <div class="row">
-      <div class="span-one-third">
+      <div class="span4" id="about">
         <h2>About</h2>
-        <p>I am a senior consultant with 12+ years of experience in
+        <p>I am a consultant with 12+ years of experience in
         the development of business intelligence and performance
         management solutions. Over the course of my career I have
         carried out several projects ranging from small Database
@@ -103,7 +115,7 @@
         Pharmaceutical, Professional Services and Distribution
         industries.</p>
       </div>
-      <div class="span-one-third">
+      <div class="span4" id="expertise">
         <h2>Expertise</h2>        
         <p>I can help you plan and implement your business
         intelligence and performance management initiatives by
@@ -117,9 +129,9 @@
           <li>Agile Development;</li>
         </ul>
       </div>
-      <div class="span-one-third">
+      <div class="span4" id="contact">
         <h2>Contact</h2>
-        <div class="span5">
+        <div>
           <address>
             <strong>Enrique Lopez de Lara</strong><br />
             Expertsum Solutions<br />
