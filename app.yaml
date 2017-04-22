@@ -1,46 +1,12 @@
-application: expertsum
-version: 1
-runtime: python
+runtime: python27
 api_version: 1
+threadsafe: true
 
 handlers:
-- url: /css
-  static_dir: css
-
-- url: /img
-  static_dir: img
-
-- url: /js
-  static_dir: js
-
-- url: /favicon\.ico
-  static_files: favicon.ico
-  upload: favicon\.ico
-
-- url: /robots\.txt
-  static_files: robots.txt
-  upload: robots\.txt
-
-- url: /humans\.txt
-  static_files: humans.txt
-  upload: humans\.txt
-
 - url: /
-  static_files: index_en.html
-  upload: index_en\.html
+  static_files: www/index_en.html
+  upload: www/index_en.html
 
-- url: /index\.html
-  static_files: index_en.html
-  upload: index_en\.html
-
-- url: /index_en\.html
-  static_files: index_en.html
-  upload: index_en\.html
-
-- url: /index_fr\.html
-  static_files: index_fr.html
-  upload: index_fr\.html
-
-- url: /.*
-  static_files: 404.html
-  upload: 404\.html
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
